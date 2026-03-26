@@ -1,0 +1,28 @@
+[general]
+name=GNSS Post-Process PPK/PPP
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+description=GNSS differential post-processing (PPK) and PPP with RTKLIB. Modular architecture, strict geodetic validation, IGN Peru-style technical report, fidelity reports with coordinate traceability.
+version=2.0.0
+author=Ing. Yuri Fabian Caller Cordova
+email=yuri@gis-amazonia.pe
+about=Professional GNSS post-processing plugin for QGIS. Bundled RTKLIB engine. Supports PPK and PPP workflows. Strict base validation with IGN-style technical report (UTM/Geographic/Cartesian via pyproj). Coordinate correction traceability. PDF reports via reportlab. Export to SHP/GPKG/KML/GeoJSON. Designed for forestry, cadastre and topography professionals in Peru and Latin America.
+tracker=https://github.com/yuri-caller/gnss-postprocess/issues
+repository=https://github.com/yuri-caller/gnss-postprocess
+hasProcessingProvider=no
+tags=gnss, ppk, ppp, rtklib, geodesy, ign, peru, topography, cadastre, differential, surveying, coordinates, post-processing
+homepage=https://github.com/yuri-caller/gnss-postprocess
+category=Plugins
+icon=icons/icon.png
+experimental=False
+deprecated=False
+server=False
+changelog=
+    Version 2.0.0 (2026-03-24):
+    - Complete rewrite with modular architecture
+    - PPK and PPP support via RTKLIB
+    - Strict geodetic base validation (UTM + Geographic + Cartesian)
+    - IGN Peru-style technical data sheet
+    - PDF fidelity reports with reportlab
+    - Export to SHP, GPKG, KML, GeoJSON
+    - Coordinate traceability and correction tracking
